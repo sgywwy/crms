@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sgy.feiyue.crms.common.dao.BookingRoomMapper" >
+  <resultMap id="BaseResultMap" type="com.sgy.feiyue.crms.common.entity.BookingRoom" >
+    <id column="booking_id" property="bookingId" jdbcType="VARCHAR" />
+    <result column="student_id" property="studentId" jdbcType="VARCHAR" />
+    <result column="room_number" property="roomNumber" jdbcType="VARCHAR" />
+    <result column="number_of_people" property="numberOfPeople" jdbcType="INTEGER" />
+    <result column="booking_start" property="bookingStart" jdbcType="TIMESTAMP" />
+    <result column="booking_end" property="bookingEnd" jdbcType="TIMESTAMP" />
+    <result column="examine" property="examine" jdbcType="VARCHAR" />
+    <result column="reason" property="reason" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    booking_id, student_id, room_number, number_of_people, booking_start, booking_end, 
+    examine, reason
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.sgy.feiyue.crms.common.entity.BookingRoomExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from booking_room
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from booking_room
+    where booking_id = #{bookingId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from booking_room
+    where booking_id = #{bookingId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.sgy.feiyue.crms.common.entity.BookingRoom" >
+    insert into booking_room (booking_id, student_id, room_number, 
+      number_of_people, booking_start, booking_end, 
+      examine, reason)
+    values (#{bookingId,jdbcType=VARCHAR}, #{studentId,jdbcType=VARCHAR}, #{roomNumber,jdbcType=VARCHAR}, 
+      #{numberOfPeople,jdbcType=INTEGER}, #{bookingStart,jdbcType=TIMESTAMP}, #{bookingEnd,jdbcType=TIMESTAMP}, 
+      #{examine,jdbcType=VARCHAR}, #{reason,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.sgy.feiyue.crms.common.entity.BookingRoom" >
+    insert into booking_room
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="bookingId != null" >
+        booking_id,
+      </if>
+      <if test="studentId != null" >
+        student_id,
+      </if>
+      <if test="roomNumber != null" >
+        room_number,
+      </if>
+      <if test="numberOfPeople != null" >
+        number_of_people,
+      </if>
+      <if test="bookingStart != null" >
+        booking_start,
+      </if>
+      <if test="bookingEnd != null" >
+        booking_end,
+      </if>
+      <if test="examine != null" >
+        examine,
+      </if>
+      <if test="reason != null" >
+        reason,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="bookingId != null" >
+        #{bookingId,jdbcType=VARCHAR},
+      </if>
+      <if test="studentId != null" >
+        #{studentId,jdbcType=VARCHAR},
+      </if>
+      <if test="roomNumber != null" >
+        #{roomNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="numberOfPeople != null" >
+        #{numberOfPeople,jdbcType=INTEGER},
+      </if>
+      <if test="bookingStart != null" >
+        #{bookingStart,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookingEnd != null" >
+        #{bookingEnd,jdbcType=TIMESTAMP},
+      </if>
+      <if test="examine != null" >
+        #{examine,jdbcType=VARCHAR},
+      </if>
+      <if test="reason != null" >
+        #{reason,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.sgy.feiyue.crms.common.entity.BookingRoomExample" resultType="java.lang.Integer" >
+    select count(*) from booking_room
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByPrimaryKeySelective" parameterType="com.sgy.feiyue.crms.common.entity.BookingRoom" >
+    update booking_room
+    <set >
+      <if test="studentId != null" >
+        student_id = #{studentId,jdbcType=VARCHAR},
+      </if>
+      <if test="roomNumber != null" >
+        room_number = #{roomNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="numberOfPeople != null" >
+        number_of_people = #{numberOfPeople,jdbcType=INTEGER},
+      </if>
+      <if test="bookingStart != null" >
+        booking_start = #{bookingStart,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookingEnd != null" >
+        booking_end = #{bookingEnd,jdbcType=TIMESTAMP},
+      </if>
+      <if test="examine != null" >
+        examine = #{examine,jdbcType=VARCHAR},
+      </if>
+      <if test="reason != null" >
+        reason = #{reason,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where booking_id = #{bookingId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sgy.feiyue.crms.common.entity.BookingRoom" >
+    update booking_room
+    set student_id = #{studentId,jdbcType=VARCHAR},
+      room_number = #{roomNumber,jdbcType=VARCHAR},
+      number_of_people = #{numberOfPeople,jdbcType=INTEGER},
+      booking_start = #{bookingStart,jdbcType=TIMESTAMP},
+      booking_end = #{bookingEnd,jdbcType=TIMESTAMP},
+      examine = #{examine,jdbcType=VARCHAR},
+      reason = #{reason,jdbcType=VARCHAR}
+    where booking_id = #{bookingId,jdbcType=VARCHAR}
+  </update>
+</mapper>
