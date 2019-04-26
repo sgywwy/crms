@@ -245,73 +245,73 @@ public class BookingRoomExample {
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberIsNull() {
-            addCriterion("room_number is null");
+        public Criteria andRoomIdIsNull() {
+            addCriterion("room_id is null");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberIsNotNull() {
-            addCriterion("room_number is not null");
+        public Criteria andRoomIdIsNotNull() {
+            addCriterion("room_id is not null");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberEqualTo(String value) {
-            addCriterion("room_number =", value, "roomNumber");
+        public Criteria andRoomIdEqualTo(String value) {
+            addCriterion("room_id =", value, "roomId");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberNotEqualTo(String value) {
-            addCriterion("room_number <>", value, "roomNumber");
+        public Criteria andRoomIdNotEqualTo(String value) {
+            addCriterion("room_id <>", value, "roomId");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberGreaterThan(String value) {
-            addCriterion("room_number >", value, "roomNumber");
+        public Criteria andRoomIdGreaterThan(String value) {
+            addCriterion("room_id >", value, "roomId");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberGreaterThanOrEqualTo(String value) {
-            addCriterion("room_number >=", value, "roomNumber");
+        public Criteria andRoomIdGreaterThanOrEqualTo(String value) {
+            addCriterion("room_id >=", value, "roomId");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberLessThan(String value) {
-            addCriterion("room_number <", value, "roomNumber");
+        public Criteria andRoomIdLessThan(String value) {
+            addCriterion("room_id <", value, "roomId");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberLessThanOrEqualTo(String value) {
-            addCriterion("room_number <=", value, "roomNumber");
+        public Criteria andRoomIdLessThanOrEqualTo(String value) {
+            addCriterion("room_id <=", value, "roomId");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberLike(String value) {
-            addCriterion("room_number like", value, "roomNumber");
+        public Criteria andRoomIdLike(String value) {
+            addCriterion("room_id like", value, "roomId");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberNotLike(String value) {
-            addCriterion("room_number not like", value, "roomNumber");
+        public Criteria andRoomIdNotLike(String value) {
+            addCriterion("room_id not like", value, "roomId");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberIn(List<String> values) {
-            addCriterion("room_number in", values, "roomNumber");
+        public Criteria andRoomIdIn(List<String> values) {
+            addCriterion("room_id in", values, "roomId");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberNotIn(List<String> values) {
-            addCriterion("room_number not in", values, "roomNumber");
+        public Criteria andRoomIdNotIn(List<String> values) {
+            addCriterion("room_id not in", values, "roomId");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberBetween(String value1, String value2) {
-            addCriterion("room_number between", value1, value2, "roomNumber");
+        public Criteria andRoomIdBetween(String value1, String value2) {
+            addCriterion("room_id between", value1, value2, "roomId");
             return (Criteria) this;
         }
 
-        public Criteria andRoomNumberNotBetween(String value1, String value2) {
-            addCriterion("room_number not between", value1, value2, "roomNumber");
+        public Criteria andRoomIdNotBetween(String value1, String value2) {
+            addCriterion("room_id not between", value1, value2, "roomId");
             return (Criteria) this;
         }
 

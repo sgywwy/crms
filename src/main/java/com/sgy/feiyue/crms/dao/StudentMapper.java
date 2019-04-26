@@ -1,6 +1,9 @@
-package com.sgy.feiyue.crms.common.dao;
+package com.sgy.feiyue.crms.dao;
 
 import com.sgy.feiyue.crms.common.entity.Student;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface StudentMapper {
     int deleteByPrimaryKey(String id);
@@ -16,4 +19,8 @@ public interface StudentMapper {
     int updateByPrimaryKey(Student record);
 
     Student selectByIdAndPassword(String uname, String pwd);
+
+    List<Student> selectStudentList();
+
+    int insertBatch(@Param("students") List<Student> students);
 }

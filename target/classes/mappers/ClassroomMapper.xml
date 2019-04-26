@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.sgy.feiyue.crms.common.dao.ClassroomMapper" >
+<mapper namespace="com.sgy.feiyue.crms.dao.ClassroomMapper" >
   <resultMap id="BaseResultMap" type="com.sgy.feiyue.crms.common.entity.Classroom" >
     <id column="room_id" property="roomId" jdbcType="VARCHAR" />
     <result column="room_number" property="roomNumber" jdbcType="VARCHAR" />
@@ -8,6 +8,7 @@
     <result column="room_state" property="roomState" jdbcType="VARCHAR" />
     <result column="room_type" property="roomType" jdbcType="VARCHAR" />
     <result column="room_capacity" property="roomCapacity" jdbcType="INTEGER" />
+    <result column="room_building" property="roomBuilding" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -39,7 +40,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    room_id, room_number, room_name, room_state, room_type, room_capacity
+    room_id, room_number, room_name, room_state, room_type, room_capacity, room_building
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.sgy.feiyue.crms.common.entity.ClassroomExample" >
     select
@@ -68,11 +69,11 @@
   </delete>
   <insert id="insert" parameterType="com.sgy.feiyue.crms.common.entity.Classroom" >
     insert into classroom (room_id, room_number, room_name, 
-      room_state, room_type, room_capacity
-      )
+      room_state, room_type, room_capacity, 
+      room_building)
     values (#{roomId,jdbcType=VARCHAR}, #{roomNumber,jdbcType=VARCHAR}, #{roomName,jdbcType=VARCHAR}, 
-      #{roomState,jdbcType=VARCHAR}, #{roomType,jdbcType=VARCHAR}, #{roomCapacity,jdbcType=INTEGER}
-      )
+      #{roomState,jdbcType=VARCHAR}, #{roomType,jdbcType=VARCHAR}, #{roomCapacity,jdbcType=INTEGER}, 
+      #{roomBuilding,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.sgy.feiyue.crms.common.entity.Classroom" >
     insert into classroom
@@ -95,6 +96,9 @@
       <if test="roomCapacity != null" >
         room_capacity,
       </if>
+      <if test="roomBuilding != null" >
+        room_building,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="roomId != null" >
@@ -114,6 +118,9 @@
       </if>
       <if test="roomCapacity != null" >
         #{roomCapacity,jdbcType=INTEGER},
+      </if>
+      <if test="roomBuilding != null" >
+        #{roomBuilding,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -141,6 +148,9 @@
       <if test="roomCapacity != null" >
         room_capacity = #{roomCapacity,jdbcType=INTEGER},
       </if>
+      <if test="roomBuilding != null" >
+        room_building = #{roomBuilding,jdbcType=VARCHAR},
+      </if>
     </set>
     where room_id = #{roomId,jdbcType=VARCHAR}
   </update>
@@ -150,7 +160,19 @@
       room_name = #{roomName,jdbcType=VARCHAR},
       room_state = #{roomState,jdbcType=VARCHAR},
       room_type = #{roomType,jdbcType=VARCHAR},
-      room_capacity = #{roomCapacity,jdbcType=INTEGER}
+      room_capacity = #{roomCapacity,jdbcType=INTEGER},
+      room_building = #{roomBuilding,jdbcType=VARCHAR}
     where room_id = #{roomId,jdbcType=VARCHAR}
   </update>
+
+  <insert id="insertBatch" parameterType="java.util.List">
+    insert into classroom(room_id, room_number, room_name,
+    room_state, room_type, room_capacity, room_building)
+    values
+    <foreach collection="classrooms" item="item" separator=",">
+      (#{item.roomId,jdbcType=VARCHAR}, #{item.roomNumber,jdbcType=VARCHAR}, #{item.roomName,jdbcType=VARCHAR},
+      #{item.roomState,jdbcType=VARCHAR}, #{item.roomType,jdbcType=VARCHAR}, #{item.roomCapacity,jdbcType=INTEGER},
+      #{item.roomBuilding,jdbcType=VARCHAR})
+    </foreach>
+  </insert>
 </mapper>

@@ -1,4 +1,4 @@
-package com.sgy.feiyue.crms.common.dao;
+package com.sgy.feiyue.crms.dao;
 
 import com.sgy.feiyue.crms.common.entity.BookingRoom;
 import com.sgy.feiyue.crms.common.entity.BookingRoomExample;

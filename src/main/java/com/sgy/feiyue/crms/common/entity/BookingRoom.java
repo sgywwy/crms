@@ -14,7 +14,7 @@ public class BookingRoom implements Serializable {
 
     private String studentId;//发起预约的学生学号
 
-    private String roomNumber;//教室门牌号
+    private String roomId;//教室id
 
     private Integer numberOfPeople;//使用人数
 
@@ -43,12 +43,12 @@ public class BookingRoom implements Serializable {
         this.studentId = studentId == null ? null : studentId.trim();
     }
 
-    public String getRoomNumber() {
-        return roomNumber;
+    public String getRoomId() {
+        return roomId;
     }
 
-    public void setRoomNumber(String roomNumber) {
-        this.roomNumber = roomNumber == null ? null : roomNumber.trim();
+    public void setRoomId(String roomId) {
+        this.roomId = roomId;
     }
 
     public Integer getNumberOfPeople() {
@@ -98,7 +98,7 @@ public class BookingRoom implements Serializable {
         BookingRoom that = (BookingRoom) o;
         return bookingId.equals(that.bookingId) &&
                 studentId.equals(that.studentId) &&
-                roomNumber.equals(that.roomNumber) &&
+                roomId.equals(that.roomId) &&
                 numberOfPeople.equals(that.numberOfPeople) &&
                 bookingStart.equals(that.bookingStart) &&
                 bookingEnd.equals(that.bookingEnd) &&
@@ -108,7 +108,7 @@ public class BookingRoom implements Serializable {
 
     @Override
     public int hashCode() {
-        return Objects.hash(bookingId, studentId, roomNumber, numberOfPeople, bookingStart, bookingEnd, examine, reason);
+        return Objects.hash(bookingId, studentId, roomId, numberOfPeople, bookingStart, bookingEnd, examine, reason);
     }
 
     @Override
@@ -116,7 +116,7 @@ public class BookingRoom implements Serializable {
         return "BookingRoom{" +
                 "bookingId='" + bookingId + '\'' +
                 ", studentId='" + studentId + '\'' +
-                ", roomNumber='" + roomNumber + '\'' +
+                ", roomId='" + roomId + '\'' +
                 ", numberOfPeople=" + numberOfPeople +
                 ", bookingStart=" + bookingStart +
                 ", bookingEnd=" + bookingEnd +

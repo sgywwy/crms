@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.sgy.feiyue.crms.common.dao.BookingRoomMapper" >
+<mapper namespace="com.sgy.feiyue.crms.dao.BookingRoomMapper" >
   <resultMap id="BaseResultMap" type="com.sgy.feiyue.crms.common.entity.BookingRoom" >
     <id column="booking_id" property="bookingId" jdbcType="VARCHAR" />
     <result column="student_id" property="studentId" jdbcType="VARCHAR" />
-    <result column="room_number" property="roomNumber" jdbcType="VARCHAR" />
+    <result column="room_id" property="roomId" jdbcType="VARCHAR" />
     <result column="number_of_people" property="numberOfPeople" jdbcType="INTEGER" />
     <result column="booking_start" property="bookingStart" jdbcType="TIMESTAMP" />
     <result column="booking_end" property="bookingEnd" jdbcType="TIMESTAMP" />
@@ -41,8 +41,8 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    booking_id, student_id, room_number, number_of_people, booking_start, booking_end, 
-    examine, reason
+    booking_id, student_id, room_id, number_of_people, booking_start, booking_end, examine, 
+    reason
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.sgy.feiyue.crms.common.entity.BookingRoomExample" >
     select
@@ -70,10 +70,10 @@
     where booking_id = #{bookingId,jdbcType=VARCHAR}
   </delete>
   <insert id="insert" parameterType="com.sgy.feiyue.crms.common.entity.BookingRoom" >
-    insert into booking_room (booking_id, student_id, room_number, 
+    insert into booking_room (booking_id, student_id, room_id, 
       number_of_people, booking_start, booking_end, 
       examine, reason)
-    values (#{bookingId,jdbcType=VARCHAR}, #{studentId,jdbcType=VARCHAR}, #{roomNumber,jdbcType=VARCHAR}, 
+    values (#{bookingId,jdbcType=VARCHAR}, #{studentId,jdbcType=VARCHAR}, #{roomId,jdbcType=VARCHAR}, 
       #{numberOfPeople,jdbcType=INTEGER}, #{bookingStart,jdbcType=TIMESTAMP}, #{bookingEnd,jdbcType=TIMESTAMP}, 
       #{examine,jdbcType=VARCHAR}, #{reason,jdbcType=VARCHAR})
   </insert>
@@ -86,8 +86,8 @@
       <if test="studentId != null" >
         student_id,
       </if>
-      <if test="roomNumber != null" >
-        room_number,
+      <if test="roomId != null" >
+        room_id,
       </if>
       <if test="numberOfPeople != null" >
         number_of_people,
@@ -112,8 +112,8 @@
       <if test="studentId != null" >
         #{studentId,jdbcType=VARCHAR},
       </if>
-      <if test="roomNumber != null" >
-        #{roomNumber,jdbcType=VARCHAR},
+      <if test="roomId != null" >
+        #{roomId,jdbcType=VARCHAR},
       </if>
       <if test="numberOfPeople != null" >
         #{numberOfPeople,jdbcType=INTEGER},
@@ -144,8 +144,8 @@
       <if test="studentId != null" >
         student_id = #{studentId,jdbcType=VARCHAR},
       </if>
-      <if test="roomNumber != null" >
-        room_number = #{roomNumber,jdbcType=VARCHAR},
+      <if test="roomId != null" >
+        room_id = #{roomId,jdbcType=VARCHAR},
       </if>
       <if test="numberOfPeople != null" >
         number_of_people = #{numberOfPeople,jdbcType=INTEGER},
@@ -168,7 +168,7 @@
   <update id="updateByPrimaryKey" parameterType="com.sgy.feiyue.crms.common.entity.BookingRoom" >
     update booking_room
     set student_id = #{studentId,jdbcType=VARCHAR},
-      room_number = #{roomNumber,jdbcType=VARCHAR},
+      room_id = #{roomId,jdbcType=VARCHAR},
       number_of_people = #{numberOfPeople,jdbcType=INTEGER},
       booking_start = #{bookingStart,jdbcType=TIMESTAMP},
       booking_end = #{bookingEnd,jdbcType=TIMESTAMP},

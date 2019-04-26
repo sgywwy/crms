@@ -1,9 +1,8 @@
-package com.sgy.feiyue.crms.common.dao;
+package com.sgy.feiyue.crms.dao;
 
 import com.sgy.feiyue.crms.common.entity.Classroom;
 import com.sgy.feiyue.crms.common.entity.ClassroomExample;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -23,4 +22,6 @@ public interface ClassroomMapper {
     int updateByPrimaryKeySelective(Classroom record);
 
     int updateByPrimaryKey(Classroom record);
+
+    int insertBatch(@Param("classrooms") List<Classroom> classrooms);
 }

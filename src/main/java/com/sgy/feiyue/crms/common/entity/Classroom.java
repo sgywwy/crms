@@ -19,6 +19,8 @@ public class Classroom implements Serializable {
 
     private String roomType;
 
+    private String roomBuilding;
+
     private Integer roomCapacity;
 
     public String getRoomId() {
@@ -69,22 +71,31 @@ public class Classroom implements Serializable {
         this.roomCapacity = roomCapacity;
     }
 
+    public String getRoomBuilding() {
+        return roomBuilding;
+    }
+
+    public void setRoomBuilding(String roomBuilding) {
+        this.roomBuilding = roomBuilding;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Classroom)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
         Classroom classroom = (Classroom) o;
-        return roomCapacity.equals(classroom.roomCapacity) &&
-                roomId.equals(classroom.roomId) &&
+        return roomId.equals(classroom.roomId) &&
                 roomNumber.equals(classroom.roomNumber) &&
                 roomName.equals(classroom.roomName) &&
                 roomState.equals(classroom.roomState) &&
-                roomType.equals(classroom.roomType);
+                roomType.equals(classroom.roomType) &&
+                roomBuilding.equals(classroom.roomBuilding) &&
+                roomCapacity.equals(classroom.roomCapacity);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(roomId, roomNumber, roomName, roomState, roomType, roomCapacity);
+        return Objects.hash(roomId, roomNumber, roomName, roomState, roomType, roomBuilding, roomCapacity);
     }
 
     @Override
@@ -95,6 +106,7 @@ public class Classroom implements Serializable {
                 ", roomName='" + roomName + '\'' +
                 ", roomState='" + roomState + '\'' +
                 ", roomType='" + roomType + '\'' +
+                ", roomBuilding='" + roomBuilding + '\'' +
                 ", roomCapacity=" + roomCapacity +
                 '}';
     }
