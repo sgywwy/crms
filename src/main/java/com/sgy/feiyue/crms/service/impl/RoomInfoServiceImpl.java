@@ -9,6 +9,7 @@ import com.sgy.feiyue.crms.service.RoomInfoService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -30,6 +31,9 @@ public class RoomInfoServiceImpl implements RoomInfoService {
      **/
     @Override
     public List<Classroom> findClassroomList(ClassroomCondition condition) {
+        if (condition == null) {
+            return new ArrayList<Classroom>();
+        }
         // 使用PageHelper分页
         if (condition.getPage() > 0 && condition.getPageSize() > 0) {
             PageHelper.startPage(condition.getPage(), condition.getPageSize());
@@ -77,6 +81,9 @@ public class RoomInfoServiceImpl implements RoomInfoService {
 
     @Override
     public boolean addClassroom(Classroom classroom) {
+//        if (classroom == null) {
+//            return false;
+//        }
         int i = classroomMapper.insertSelective(classroom);
         if (i > 0) {
             return true;

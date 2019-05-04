@@ -90,4 +90,13 @@
       realname = #{realname,jdbcType=VARCHAR}
     where id = #{id,jdbcType=VARCHAR}
   </update>
+
+  <insert id="insertBatch" parameterType="java.util.List">
+    insert into student(id, username, password, grade, realname)
+    values
+    <foreach collection="students" item="item" separator=",">
+      (#{item.id,jdbcType=VARCHAR}, #{item.username,jdbcType=VARCHAR}, #{item.password,jdbcType=VARCHAR},
+      #{item.grade,jdbcType=VARCHAR}, #{item.realname,jdbcType=VARCHAR})
+    </foreach>
+  </insert>
 </mapper>

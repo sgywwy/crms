@@ -82,18 +82,51 @@ public class DataRet {
         return dataRet;
     }
 
+    /**
+     * @Author SGY
+     * @Date 2019/4/27 9:53
+     * @Param
+     * @return
+     * @Description 没有任何改变
+     **/
     public static DataRet nothingChanged(){
         DataRet dataRet = new DataRet(RetCodeEnum.NOTHING_CHANGED.getCode(),RetCodeEnum.NOTHING_CHANGED.getValue());
         return dataRet;
     }
 
+    /**
+     * @Author SGY
+     * @Date 2019/4/27 9:53
+     * @Param
+     * @return
+     * @Description 无权限访问
+     **/
     public static DataRet permissionDeny(){
         DataRet dataRet = new DataRet(RetCodeEnum.PERMISSION_DENY.getCode(),RetCodeEnum.PERMISSION_DENY.getValue());
         return dataRet;
     }
 
+    /**
+     * @Author SGY
+     * @Date 2019/4/27 9:52
+     * @Param
+     * @return
+     * @Description 参数错误
+     **/
     public static DataRet wrongParameter(){
         DataRet dataRet = new DataRet(RetCodeEnum.BAD_PARAMATER.getCode(),RetCodeEnum.BAD_PARAMATER.getValue());
+        return dataRet;
+    }
+
+    /**
+     * @Author SGY
+     * @Date 2019/4/27 9:51
+     * @Param
+     * @return DataRet
+     * @Description 没有匹配的结果集
+     **/
+    public static DataRet notMatchResult(){
+        DataRet dataRet = new DataRet(RetCodeEnum.NOT_MATCH.getCode(),RetCodeEnum.NOT_MATCH.getValue());
         return dataRet;
     }
 

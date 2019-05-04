@@ -5,7 +5,8 @@ public enum  RetCodeEnum {
     FAIL(0, "程序错误"),
     NOTHING_CHANGED(2, "无任何改变"),
     BAD_PARAMATER(3, "参数错误"),
-    PERMISSION_DENY(4, "无权限访问");
+    PERMISSION_DENY(4, "无权限访问"),
+    NOT_MATCH(5, "没有匹配的值");
 
     private int code;
 

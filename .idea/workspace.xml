@@ -2,45 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34fd3a65-0b58-4e31-9349-0898614da5d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/CrmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/CrmsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dao/BookingRoomMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/dao/BookingRoomMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dao/ClassroomMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/dao/ClassroomMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dao/ManagerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/dao/ManagerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/dao/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/entity/BookingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/entity/BookingRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/entity/BookingRoomExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/entity/BookingRoomExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/entity/Classroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/entity/Classroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/entity/ClassroomExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/entity/ClassroomExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/DataRet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/DataRet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/RetCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/RetCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/controller/RoomInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/controller/RoomInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/RoomInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/RoomInfoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/BookingRoomMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/BookingRoomMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ClassroomMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ClassroomMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ManagerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ManagerMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sgy/feiyue/crms/CrmsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sgy/feiyue/crms/CrmsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/CrmsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/CrmsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/dao/BookingRoomMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/dao/ClassroomMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/dao/ManagerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/dao/StudentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/BookingRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/BookingRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/BookingRoomExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/BookingRoomExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/BookingRoomExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/BookingRoomExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/Classroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/Classroom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/ClassroomExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/ClassroomExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/ClassroomExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/ClassroomExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/ClassroomExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/ClassroomExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/BookingRoomMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/BookingRoomMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ClassroomMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/ClassroomMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ManagerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/ManagerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/dto/BookingRoomCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/dto/BookingRoomCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/util/DataRet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/util/DataRet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/util/RetCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/common/util/RetCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/controller/RoomInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/controller/RoomInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/service/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/service/BookingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/service/impl/RoomInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/service/impl/RoomInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sgy/feiyue/crms/service/impl/UserInfoServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mappers/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sgy/feiyue/crms/CrmsApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sgy/feiyue/crms/CrmsApplicationTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,8 +32,57 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/controller/RoomInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getRoomList#0;class#RoomInfoController#0" />
+                <element signature="method#getRoom#0;class#RoomInfoController#0" />
+                <element signature="method#deleteRoom#0;class#RoomInfoController#0" />
+                <element signature="method#postRoom#0;class#RoomInfoController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dto/ClassroomCondition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/entity/Classroom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/RoomInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2250">
+              <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sgy/feiyue/crms/controller/RoomInfoControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,6 +99,7 @@
         <option value="xml" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -90,6 +117,7 @@
       <find>example</find>
       <find>Example_Where_Clause</find>
       <find>#{</find>
+      <find>perform</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -129,12 +157,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/mappers/BookingRoomMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dto/BokingRoomCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/RetCodeEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/controller/RoomInfoController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dto/ClassroomCondition.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/ClassroomMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/dao/ClassroomMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sgy/feiyue/crms/CrmsApplicationTests.java" />
@@ -143,11 +167,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/UserInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/dao/BookingRoomMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dto/BookingRoomCondition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/DataRet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/BookingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/RoomInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/BookingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/RoomInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/RetCodeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/DataRet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dto/ClassroomCondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/RoomInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sgy/feiyue/crms/controller/RoomInfoControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/controller/RoomInfoController.java" />
       </list>
     </option>
   </component>
@@ -161,9 +191,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -173,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,10 +283,67 @@
               <item name="crms" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="crms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crms" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crms" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crms" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -268,15 +354,23 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556282155479" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556373203784" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sgy.feiyue.crms.controller" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.sgy.feiyue.crms" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\idea_work\ClassRoomManagementSystem\crms\src\main\java\com\sgy\feiyue\crms\common\entity" />
@@ -297,7 +391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CrmsApplicationTests.contextLoads">
+  <component name="RunManager" selected="JUnit.RoomInfoControllerTest.testRequest">
     <configuration name="CrmsApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crms" />
       <extension name="coverage">
@@ -314,6 +408,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RoomInfoControllerTest.getRoomList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sgy.feiyue.crms.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sgy.feiyue.crms.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sgy.feiyue.crms.controller.RoomInfoControllerTest" />
+      <option name="METHOD_NAME" value="getRoomList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomInfoControllerTest.testRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sgy.feiyue.crms.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sgy.feiyue.crms.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sgy.feiyue.crms.controller.RoomInfoControllerTest" />
+      <option name="METHOD_NAME" value="testRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CrmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="crms" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgy.feiyue.crms.CrmsApplication" />
@@ -323,6 +449,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoomInfoControllerTest.testRequest" />
+        <item itemvalue="JUnit.RoomInfoControllerTest.getRoomList" />
         <item itemvalue="JUnit.CrmsApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -342,60 +470,62 @@
       <workItem from="1556150027020" duration="3749000" />
       <workItem from="1556189727901" duration="3844000" />
       <workItem from="1556241193747" duration="25550000" />
+      <workItem from="1556328408493" duration="3383000" />
+      <workItem from="1556361103505" duration="10293000" />
+      <workItem from="1556411044721" duration="2337000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrmsApplicationTests_contextLoads - 2019.04.26 at 09h 55m 57s.xml">
-      <configuration name="CrmsApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="RoomInfoControllerTest_testRequest - 2019.04.27 at 21h 35m 26s.xml">
+      <configuration name="RoomInfoControllerTest.testRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmsApplicationTests_contextLoads - 2019.04.26 at 09h 57m 22s.xml">
-      <configuration name="CrmsApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="RoomInfoControllerTest_testRequest - 2019.04.27 at 21h 36m 17s.xml">
+      <configuration name="RoomInfoControllerTest.testRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmsApplicationTests_contextLoads - 2019.04.26 at 10h 08m 34s.xml">
-      <configuration name="CrmsApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="RoomInfoControllerTest_testRequest - 2019.04.27 at 21h 37m 25s.xml">
+      <configuration name="RoomInfoControllerTest.testRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmsApplicationTests_contextLoads - 2019.04.26 at 17h 27m 52s.xml">
-      <configuration name="CrmsApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="RoomInfoControllerTest_testRequest - 2019.04.27 at 21h 38m 10s.xml">
+      <configuration name="RoomInfoControllerTest.testRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmsApplicationTests_contextLoads - 2019.04.26 at 17h 31m 07s.xml">
-      <configuration name="CrmsApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="RoomInfoControllerTest_testRequest - 2019.04.27 at 21h 39m 38s.xml">
+      <configuration name="RoomInfoControllerTest.testRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmsApplicationTests_contextLoads - 2019.04.26 at 17h 33m 54s.xml">
-      <configuration name="CrmsApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="RoomInfoControllerTest_testRequest - 2019.04.27 at 21h 41m 05s.xml">
+      <configuration name="RoomInfoControllerTest.testRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmsApplicationTests_contextLoads - 2019.04.26 at 17h 35m 38s.xml">
-      <configuration name="CrmsApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="RoomInfoControllerTest_testRequest - 2019.04.27 at 21h 44m 00s.xml">
+      <configuration name="RoomInfoControllerTest.testRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmsApplicationTests_contextLoads - 2019.04.26 at 17h 37m 47s.xml">
-      <configuration name="CrmsApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="RoomInfoControllerTest_testRequest - 2019.04.27 at 21h 44m 46s.xml">
+      <configuration name="RoomInfoControllerTest.testRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmsApplicationTests_contextLoads - 2019.04.26 at 17h 39m 06s.xml">
-      <configuration name="CrmsApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="RoomInfoControllerTest_testRequest - 2019.04.27 at 21h 46m 00s.xml">
+      <configuration name="RoomInfoControllerTest.testRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmsApplicationTests_contextLoads - 2019.04.26 at 17h 39m 57s.xml">
-      <configuration name="CrmsApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="RoomInfoControllerTest_testRequest - 2019.04.27 at 21h 53m 40s.xml">
+      <configuration name="RoomInfoControllerTest.testRequest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65124000" />
+    <option name="totallyTimeSpent" value="81137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2680965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.21313673" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.2680965" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.55807364" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.84560907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -406,7 +536,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067025" side_tool="true" weight="0.7340877" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,6 +546,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
@@ -453,20 +584,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dao/BookingRoomExample.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dao/ClassroomExample.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
     <entry file="file://$PROJECT_DIR$/logs/log.log">
@@ -576,16 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/entity/Classroom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/CrmsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -603,44 +710,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/RoomInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/RoomTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/RoomStateEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/RetCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,48 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dto/ClassroomCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="15" />
-          <folding>
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1643#1644#0" expanded="true" />
-            <element signature="e#1691#1692#0" expanded="true" />
-            <element signature="e#1849#1850#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
-            <element signature="e#2093#2094#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/MavenRepository/com/github/pagehelper/pagehelper/5.1.8/pagehelper-5.1.8.jar!/com/github/pagehelper/page/PageMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sgy/feiyue/crms/CrmsApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#1280#1291#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,13 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/DataRet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1523">
@@ -845,26 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/UserInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/RoomInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/BookingServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-217">
@@ -875,12 +883,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/controller/RoomInfoController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/RetCodeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="-30">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/RoomInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/DataRet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sgy/feiyue/crms/CrmsApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1280#1291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/MavenRepository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar!/org/json/JSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1665">
+          <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
+          <folding>
+            <element signature="e#5057#5058#0" expanded="true" />
+            <element signature="e#5119#5120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/MavenRepository/org/springframework/spring-test/5.1.6.RELEASE/spring-test-5.1.6.RELEASE.jar!/org/springframework/test/web/servlet/request/MockHttpServletRequestBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="150" column="41" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/MavenRepository/org/springframework/spring-test/5.1.6.RELEASE/spring-test-5.1.6.RELEASE.jar!/org/springframework/test/web/servlet/MockMvc.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding>
+            <element signature="method#perform#0;class#MockMvc#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/MavenRepository/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/http/MediaType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="38" column="97" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/entity/Classroom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/service/impl/RoomInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sgy/feiyue/crms/controller/RoomInfoControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/util/RoomTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/common/dto/ClassroomCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sgy/feiyue/crms/controller/RoomInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getRoomList#0;class#RoomInfoController#0" />
+            <element signature="method#getRoom#0;class#RoomInfoController#0" />
+            <element signature="method#deleteRoom#0;class#RoomInfoController#0" />
+            <element signature="method#postRoom#0;class#RoomInfoController#0" />
           </folding>
         </state>
       </provider>
