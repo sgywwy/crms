@@ -1,7 +1,9 @@
 package com.sgy.feiyue.crms.service.impl;
 
-import com.sgy.feiyue.crms.common.entity.Student;
-import com.sgy.feiyue.crms.dao.StudentMapper;
+import com.sgy.feiyue.crms.common.dto.UserRoleInfo;
+import com.sgy.feiyue.crms.common.entity.User;
+import com.sgy.feiyue.crms.dao.UserMapper;
+import com.sgy.feiyue.crms.dao.UserRoleMapper;
 import com.sgy.feiyue.crms.service.UserInfoService;
 import org.springframework.stereotype.Service;
 
@@ -16,23 +18,25 @@ import java.util.List;
 @Service()
 public class UserInfoServiceImpl implements UserInfoService {
     @Resource
-    private StudentMapper studentMapper;
+    private UserMapper userMapper;
+    @Resource
+    private UserRoleMapper userRoleMapper;
 
     @Override
-    public List<Student> findStudentList() {
-        List<Student> students = studentMapper.selectStudentList();
-        return students;
+    public List<User> findUserList() {
+//        List<User> students = userMapper.selectUserList();
+        return null;
     }
 
     @Override
-    public Student findById(String id) {
-        Student student = studentMapper.selectByPrimaryKey(id);
-        return student;
+    public User findById(String id) {
+        User user = userMapper.selectByPrimaryKey(id);
+        return user;
     }
 
     @Override
-    public boolean removeStudentById(String id) {
-        int i = studentMapper.deleteByPrimaryKey(id);
+    public boolean removeUserById(String id) {
+        int i = userMapper.deleteByPrimaryKey(id);
         if (i > 0) {
             return true;
         }
@@ -40,8 +44,8 @@ public class UserInfoServiceImpl implements UserInfoService {
     }
 
     @Override
-    public boolean addStudent(Student student) {
-        int i = studentMapper.insertSelective(student);
+    public boolean addUser(User student) {
+        int i = userMapper.insertSelective(student);
         if (i > 0) {
             return true;
         }
@@ -49,8 +53,17 @@ public class UserInfoServiceImpl implements UserInfoService {
     }
 
     @Override
-    public boolean addStudentList(List<Student> students) {
-        int i = studentMapper.insertBatch(students);
+    public boolean addUserList(List<User> students) {
+//        int i = userMapper.insertBatch(students);
+//        if (i > 0) {
+//            return true;
+//        }
+        return false;
+    }
+
+    @Override
+    public boolean modifyUser(User student) {
+        int i = userMapper.updateByPrimaryKeySelective(student);
         if (i > 0) {
             return true;
         }
@@ -58,9 +71,15 @@ public class UserInfoServiceImpl implements UserInfoService {
     }
 
     @Override
-    public boolean modifyStudent(Student student) {
-        int i = studentMapper.updateByPrimaryKeySelective(student);
-        if (i > 0) {
+    public User findByNameAndPwd(String name, String pwd) {
+        User user = userMapper.selectUser(name, pwd);
+        return user;
+    }
+
+    @Override
+    public boolean checkUser(String name) {
+        int i = userMapper.countByUsername(name);
+        if (i == 1) {
             return true;
         }
         return false;

@@ -4,46 +4,40 @@ import com.sgy.feiyue.crms.dao.ClassroomMapper;
 import com.sgy.feiyue.crms.common.entity.Classroom;
 import com.sgy.feiyue.crms.common.entity.ClassroomExample;
 import com.sgy.feiyue.crms.common.util.RoomTypeEnum;
+import com.sgy.feiyue.crms.security.util.CustomJWT;
+import com.sgy.feiyue.crms.service.RoleInfoService;
+import com.sgy.feiyue.crms.service.UserInfoService;
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jws;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.security.Keys;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.xml.bind.DatatypeConverter;
 import java.util.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class CrmsApplicationTests {
     @Autowired
-    ClassroomMapper classroomMapper;
+    RoleInfoService roleInfoService;
+
+    public static void main(String[] args) {
+        String token = CustomJWT.createToken("111", "aaa");
+        Claims claims = CustomJWT.parseToken(token);
+        System.out.println(claims);
+
+    }
 
     @Test
     public void contextLoads() {
-        Classroom classroom = new Classroom();
-        classroom.setRoomBuilding("1");
-        classroom.setRoomCapacity(1);
-        classroom.setRoomId("6");
-        classroom.setRoomName("4");
-        classroom.setRoomNumber("2");
-        classroom.setRoomState("0");
-        classroom.setRoomType("1");
-        Classroom c = new Classroom();
-        c.setRoomBuilding("1");
-        c.setRoomCapacity(1);
-        c.setRoomId("7");
-        c.setRoomName("4");
-        c.setRoomNumber("2");
-        c.setRoomState("0");
-        c.setRoomType("1");
-        List<Classroom> classrooms = new ArrayList<Classroom>();
-        classrooms.add(c);
-        classrooms.add(classroom);
-
-        int i = classroomMapper.insertBatch(classrooms);
-
-        System.out.println(i);
-
+        List<String> roleIds = roleInfoService.getRoleIds("2015001");
+        System.out.println(roleIds.isEmpty());
     }
 
 }

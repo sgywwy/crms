@@ -6,7 +6,7 @@ package com.sgy.feiyue.crms.common.util;
  * @Description 用于control层返回值对象
  **/
 public class DataRet {
-    private int code;//"1"成功,"2"错误
+    private int code;//"0"成功,"1"错误
 
     private String message;
 

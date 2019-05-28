@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sgy.feiyue.crms.dao.BuildingInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.sgy.feiyue.crms.common.entity.BuildingInfo" >
+    <result column="id" property="id" jdbcType="VARCHAR" />
+    <result column="building_name" property="buildingName" jdbcType="VARCHAR" />
+    <result column="building_simple" property="buildingSimple" jdbcType="VARCHAR" />
+  </resultMap>
+  <insert id="insert" parameterType="com.sgy.feiyue.crms.common.entity.BuildingInfo" >
+    insert into building_info (id, building_name, building_simple
+      )
+    values (#{id,jdbcType=VARCHAR}, #{buildingName,jdbcType=VARCHAR}, #{buildingSimple,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.sgy.feiyue.crms.common.entity.BuildingInfo" >
+    insert into building_info
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="buildingName != null" >
+        building_name,
+      </if>
+      <if test="buildingSimple != null" >
+        building_simple,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="buildingName != null" >
+        #{buildingName,jdbcType=VARCHAR},
+      </if>
+      <if test="buildingSimple != null" >
+        #{buildingSimple,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

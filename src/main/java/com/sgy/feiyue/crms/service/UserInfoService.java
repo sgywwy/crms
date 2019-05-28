@@ -1,19 +1,26 @@
 package com.sgy.feiyue.crms.service;
 
-import com.sgy.feiyue.crms.common.entity.Student;
+import com.sgy.feiyue.crms.common.dto.UserRoleInfo;
+import com.sgy.feiyue.crms.common.entity.User;
 
 import java.util.List;
 
 public interface UserInfoService {
-    List<Student> findStudentList();
+    List<User> findUserList();
 
-    Student findById(String id);
+    User findById(String id);
 
-    boolean removeStudentById(String id);
+    boolean removeUserById(String id);
 
-    boolean addStudent(Student student);
+    boolean addUser(User user);
 
-    boolean addStudentList(List<Student> students);
+    boolean addUserList(List<User> users);
 
-    boolean modifyStudent(Student student);
+    boolean modifyUser(User user);
+
+    User findByNameAndPwd(String name, String pwd);
+
+    boolean checkUser(String name);
+
+
 }

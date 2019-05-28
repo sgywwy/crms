@@ -1,0 +1,21 @@
+2019-05-15 20:56:17.403  INFO 3244 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 3244 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 20:56:17.408 DEBUG 3244 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 20:56:17.408  INFO 3244 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 20:56:19.232  INFO 3244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 20:56:19.273  INFO 3244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 20:56:19.275  INFO 3244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-15 20:56:19.410  INFO 3244 --- [main] o.a.c.c.C.[.[localhost].[/crms/api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 20:56:19.411  INFO 3244 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1853 ms
+2019-05-15 20:56:19.587  INFO 3244 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/{id}/rooms/{id}]
+2019-05-15 20:56:19.587  INFO 3244 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/]
+2019-05-15 20:56:19.588  INFO 3244 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/]
+2019-05-15 20:56:19.588  INFO 3244 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/{id}]
+2019-05-15 20:56:19.588  INFO 3244 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/{id}/rooms]
+2019-05-15 20:56:19.588  INFO 3244 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/]
+2019-05-15 20:56:19.588  INFO 3244 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/oauth/authorize]
+2019-05-15 20:56:19.589  INFO 3244 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/error]
+2019-05-15 20:56:19.589  INFO 3244 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/error]
+2019-05-15 20:56:20.319  INFO 3244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 20:56:20.651  INFO 3244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms/api'
+2019-05-15 20:56:20.656  INFO 3244 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 4.605 seconds (JVM running for 5.808)
+2019-05-15 21:05:09.287  INFO 3244 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

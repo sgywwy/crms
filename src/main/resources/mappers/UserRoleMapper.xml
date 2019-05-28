@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sgy.feiyue.crms.dao.UserRoleMapper" >
+  <resultMap id="BaseResultMap" type="com.sgy.feiyue.crms.common.entity.UserRole" >
+    <result column="user_role_id" property="userRoleId" jdbcType="VARCHAR" />
+    <result column="role_id" property="roleId" jdbcType="VARCHAR" />
+    <result column="user_id" property="userId" jdbcType="VARCHAR" />
+  </resultMap>
+  <insert id="insert" parameterType="com.sgy.feiyue.crms.common.entity.UserRole" >
+    insert into user_role (user_role_id, role_id, user_id
+      )
+    values (#{userRoleId,jdbcType=VARCHAR}, #{roleId,jdbcType=VARCHAR}, #{userId,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.sgy.feiyue.crms.common.entity.UserRole" >
+    insert into user_role
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="userRoleId != null" >
+        user_role_id,
+      </if>
+      <if test="roleId != null" >
+        role_id,
+      </if>
+      <if test="userId != null" >
+        user_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="userRoleId != null" >
+        #{userRoleId,jdbcType=VARCHAR},
+      </if>
+      <if test="roleId != null" >
+        #{roleId,jdbcType=VARCHAR},
+      </if>
+      <if test="userId != null" >
+        #{userId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="selectByUserId" parameterType="java.lang.String" resultType="java.lang.String">
+    SELECT
+      us.role_id
+    FROM
+	  `user` u
+      INNER JOIN user_role us ON u.id = us.user_id
+    where
+      u.id = #{id, jdbcType=VARCHAR}
+  </select>
+</mapper>

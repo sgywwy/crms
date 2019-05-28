@@ -18,7 +18,7 @@ public class ClassroomCondition {
 
     private List<String> roomTypes;
 
-    private List<String> roomBuildings;
+    private List<String> roomBuildingIds;
 
     private Integer roomCapacity;
 
@@ -68,12 +68,12 @@ public class ClassroomCondition {
         this.roomTypes = roomTypes;
     }
 
-    public List<String> getRoomBuildings() {
-        return roomBuildings;
+    public List<String> getRoomBuildingIds() {
+        return roomBuildingIds;
     }
 
-    public void setRoomBuildings(List<String> roomBuildings) {
-        this.roomBuildings = roomBuildings;
+    public void setRoomBuildingIds(List<String> roomBuildingIds) {
+        this.roomBuildingIds = roomBuildingIds;
     }
 
     public Integer getRoomCapacity() {
@@ -116,7 +116,7 @@ public class ClassroomCondition {
                 ", roomName='" + roomName + '\'' +
                 ", roomStates=" + roomStates +
                 ", roomTypes=" + roomTypes +
-                ", roomBuildings=" + roomBuildings +
+                ", roomBuildingId=" + roomBuildingIds +
                 ", roomCapacity=" + roomCapacity +
                 ", sort='" + sort + '\'' +
                 ", page=" + page +

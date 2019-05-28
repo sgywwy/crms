@@ -71,7 +71,7 @@ public class RoomInfoController {
 
     @ResponseBody
     @RequestMapping(value = "/", method = RequestMethod.PATCH)
-    public DataRet postRoom(@Valid Classroom classroom) {
+    public DataRet postRoom(@RequestBody Classroom classroom) {
         boolean flag = roomInfoService.addClassroom(classroom);
         DataRet data;
         if (flag) {

@@ -1,0 +1,807 @@
+2019-05-15 19:56:05.093  INFO 4068 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 4068 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 19:56:05.098  INFO 4068 --- [main] com.sgy.feiyue.crms.CrmsApplication      : No active profile set, falling back to default profiles: default
+2019-05-15 19:56:06.983  INFO 4068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 19:56:07.015  INFO 4068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 19:56:07.016  INFO 4068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-15 19:56:07.157  INFO 4068 --- [main] o.a.c.c.C.[.[localhost].[/crms/api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 19:56:07.157  INFO 4068 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1931 ms
+2019-05-15 19:56:07.993  INFO 4068 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 19:56:08.469  INFO 4068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms/api'
+2019-05-15 19:56:08.474  INFO 4068 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 4.517 seconds (JVM running for 5.791)
+2019-05-15 20:16:36.205  INFO 4068 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-15 20:16:43.447  INFO 4276 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 4276 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 20:16:43.453 DEBUG 4276 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 20:16:43.454  INFO 4276 --- [main] com.sgy.feiyue.crms.CrmsApplication      : No active profile set, falling back to default profiles: default
+2019-05-15 20:16:45.442  INFO 4276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 20:16:45.480  INFO 4276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 20:16:45.481  INFO 4276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-15 20:16:45.622  INFO 4276 --- [main] o.a.c.c.C.[.[localhost].[/crms/api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 20:16:45.623  INFO 4276 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2067 ms
+2019-05-15 20:16:46.427  INFO 4276 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 20:16:46.976  INFO 4276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms/api'
+2019-05-15 20:16:46.983  INFO 4276 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 4.64 seconds (JVM running for 5.988)
+2019-05-15 20:17:20.846  INFO 4276 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-15 20:17:25.993  INFO 6776 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 6776 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 20:17:25.997 DEBUG 6776 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 20:17:25.998  INFO 6776 --- [main] com.sgy.feiyue.crms.CrmsApplication      : No active profile set, falling back to default profiles: default
+2019-05-15 20:17:28.005  INFO 6776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 20:17:28.041  INFO 6776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 20:17:28.043  INFO 6776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-15 20:17:28.181  INFO 6776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-15 20:17:28.181  INFO 6776 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1977 ms
+2019-05-15 20:17:29.043  INFO 6776 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 20:17:29.406  INFO 6776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path ''
+2019-05-15 20:17:29.411  INFO 6776 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 4.609 seconds (JVM running for 5.867)
+2019-05-15 20:20:01.178  INFO 6776 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-15 20:20:06.841  INFO 10280 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 10280 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 20:20:06.865 DEBUG 10280 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-15 20:20:06.865  INFO 10280 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 20:20:08.842  INFO 10280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 20:20:08.881  INFO 10280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 20:20:08.881  INFO 10280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-15 20:20:09.019  INFO 10280 --- [main] o.a.c.c.C.[.[localhost].[/crms/api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 20:20:09.020  INFO 10280 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2056 ms
+2019-05-15 20:20:09.747  INFO 10280 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 20:20:10.351  INFO 10280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms/api'
+2019-05-15 20:20:10.358  INFO 10280 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 4.827 seconds (JVM running for 6.045)
+2019-05-15 20:20:53.823  INFO 10280 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-15 20:52:15.611  INFO 8816 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 8816 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 20:52:15.618  INFO 8816 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 20:52:17.531  INFO 8816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 20:52:17.563  INFO 8816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 20:52:17.564  INFO 8816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-15 20:52:17.692  INFO 8816 --- [main] o.a.c.c.C.[.[localhost].[/crms/api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 20:52:17.692  INFO 8816 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1968 ms
+2019-05-15 20:52:17.864  INFO 8816 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/]
+2019-05-15 20:52:17.865  INFO 8816 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/]
+2019-05-15 20:52:17.865  INFO 8816 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/]
+2019-05-15 20:52:17.865  INFO 8816 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/{id}/rooms/{id}]
+2019-05-15 20:52:17.865  INFO 8816 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/{id}]
+2019-05-15 20:52:17.865  INFO 8816 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/builds/{id}/rooms]
+2019-05-15 20:52:17.866  INFO 8816 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/oauth/authorize]
+2019-05-15 20:52:17.866  INFO 8816 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/error]
+2019-05-15 20:52:17.866  INFO 8816 --- [main] c.s.f.c.security.util.SpringMvcUrlUtil   : [/error]
+2019-05-15 20:52:18.652  INFO 8816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 20:52:18.984  INFO 8816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms/api'
+2019-05-15 20:52:18.990  INFO 8816 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 4.346 seconds (JVM running for 5.558)
+2019-05-15 20:54:44.271  INFO 8816 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-15 21:05:32.099  INFO 3152 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 3152 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 21:05:32.107 DEBUG 3152 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-05-15 21:05:32.108  INFO 3152 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 21:05:32.196  INFO 3152 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@648c94da: startup date [Wed May 15 21:05:32 CST 2019]; root of context hierarchy
+2019-05-15 21:05:34.020  INFO 3152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 21:05:34.059  INFO 3152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 21:05:34.059  INFO 3152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-15 21:05:34.066  INFO 3152 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\Java\jdk1.8\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Program Files\Git\cmd;F:\node-v10.15.3-win-x64;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\node-v10.15.3-win-x64\node_global;;.]
+2019-05-15 21:05:34.221  INFO 3152 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crms/api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 21:05:34.222  INFO 3152 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2027 ms
+2019-05-15 21:05:34.450  INFO 3152 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-05-15 21:05:34.463  INFO 3152 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-15 21:05:34.464  INFO 3152 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-15 21:05:34.464  INFO 3152 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-15 21:05:34.465  INFO 3152 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-15 21:05:35.218  INFO 3152 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:05:35.683  INFO 3152 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@648c94da: startup date [Wed May 15 21:05:32 CST 2019]; root of context hierarchy
+2019-05-15 21:05:35.764  INFO 3152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PATCH]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:05:35.766  INFO 3152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PUT]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.putRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:05:35.766  INFO 3152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}],methods=[DELETE]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.deleteRoom(java.lang.String)
+2019-05-15 21:05:35.767  INFO 3152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms/{id}],methods=[GET]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoom(java.lang.String)
+2019-05-15 21:05:35.767  INFO 3152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoomList(java.util.List<com.sgy.feiyue.crms.common.entity.Classroom>)
+2019-05-15 21:05:35.768  INFO 3152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoomList(com.sgy.feiyue.crms.common.dto.ClassroomCondition)
+2019-05-15 21:05:35.768  INFO 3152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/oauth/authorize],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.security.controller.AuthorizeController.login(java.lang.String,java.lang.String)
+2019-05-15 21:05:35.772  INFO 3152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-15 21:05:35.773  INFO 3152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-15 21:05:35.813  INFO 3152 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:05:35.814  INFO 3152 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:05:36.434  INFO 3152 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-05-15 21:05:36.436  INFO 3152 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-15 21:05:36.443  INFO 3152 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-15 21:05:36.506  INFO 3152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms/api'
+2019-05-15 21:05:36.512  INFO 3152 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 5.475 seconds (JVM running for 7.028)
+2019-05-15 21:08:45.197  INFO 3152 --- [Thread-14] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@648c94da: startup date [Wed May 15 21:05:32 CST 2019]; root of context hierarchy
+2019-05-15 21:08:45.203  INFO 3152 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-05-15 21:08:45.207  INFO 3152 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-05-15 21:09:01.636  INFO 12400 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 12400 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 21:09:01.641 DEBUG 12400 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-15 21:09:01.641  INFO 12400 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 21:09:05.029  INFO 12400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 21:09:05.107  INFO 12400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 21:09:05.107  INFO 12400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-15 21:09:05.118  INFO 12400 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\Java\jdk1.8\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Program Files\Git\cmd;F:\node-v10.15.3-win-x64;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\node-v10.15.3-win-x64\node_global;;.]
+2019-05-15 21:09:05.340  INFO 12400 --- [main] o.a.c.c.C.[.[localhost].[/crms/api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 21:09:05.341  INFO 12400 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3528 ms
+2019-05-15 21:09:06.274  INFO 12400 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 21:09:06.850  INFO 12400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms/api'
+2019-05-15 21:09:06.855  INFO 12400 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 6.769 seconds (JVM running for 8.161)
+2019-05-15 21:10:19.564  INFO 12400 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-15 21:12:50.518  INFO 6720 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 6720 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 21:12:50.528  INFO 6720 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 21:12:50.608  INFO 6720 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@335b5620: startup date [Wed May 15 21:12:50 CST 2019]; root of context hierarchy
+2019-05-15 21:12:52.865  INFO 6720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 21:12:52.902  INFO 6720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 21:12:52.902  INFO 6720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-15 21:12:52.910  INFO 6720 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\Java\jdk1.8\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Program Files\Git\cmd;F:\node-v10.15.3-win-x64;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\node-v10.15.3-win-x64\node_global;;.]
+2019-05-15 21:12:53.071  INFO 6720 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crms/api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 21:12:53.081  INFO 6720 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2473 ms
+2019-05-15 21:12:53.330  INFO 6720 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-05-15 21:12:53.335  INFO 6720 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-15 21:12:53.336  INFO 6720 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-15 21:12:53.336  INFO 6720 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-15 21:12:53.337  INFO 6720 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-15 21:12:54.021  INFO 6720 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:12:54.288  INFO 6720 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@335b5620: startup date [Wed May 15 21:12:50 CST 2019]; root of context hierarchy
+2019-05-15 21:12:54.364  INFO 6720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PUT]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.putRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:12:54.364  INFO 6720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}],methods=[DELETE]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.deleteRoom(java.lang.String)
+2019-05-15 21:12:54.364  INFO 6720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoomList(com.sgy.feiyue.crms.common.dto.ClassroomCondition)
+2019-05-15 21:12:54.364  INFO 6720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PATCH]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:12:54.364  INFO 6720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms/{id}],methods=[GET]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoom(java.lang.String)
+2019-05-15 21:12:54.364  INFO 6720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoomList(java.util.List<com.sgy.feiyue.crms.common.entity.Classroom>)
+2019-05-15 21:12:54.364  INFO 6720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/oauth/authorize],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.security.controller.AuthorizeController.login(java.lang.String,java.lang.String)
+2019-05-15 21:12:54.379  INFO 6720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-15 21:12:54.380  INFO 6720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-15 21:12:54.573  INFO 6720 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:12:54.573  INFO 6720 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:12:55.023  INFO 6720 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-05-15 21:12:55.024  INFO 6720 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-15 21:12:55.030  INFO 6720 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-15 21:12:55.082  INFO 6720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms/api'
+2019-05-15 21:12:55.090  INFO 6720 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 5.508 seconds (JVM running for 7.806)
+2019-05-15 21:23:46.515  INFO 6720 --- [Thread-13] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@335b5620: startup date [Wed May 15 21:12:50 CST 2019]; root of context hierarchy
+2019-05-15 21:23:46.515  INFO 6720 --- [Thread-13] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-05-15 21:23:46.515  INFO 6720 --- [Thread-13] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-05-15 21:23:51.905  INFO 12948 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 12948 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 21:23:51.915  INFO 12948 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 21:23:52.035  INFO 12948 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@be68757: startup date [Wed May 15 21:23:52 CST 2019]; root of context hierarchy
+2019-05-15 21:23:53.845  INFO 12948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 21:23:53.875  INFO 12948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 21:23:53.875  INFO 12948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-15 21:23:53.885  INFO 12948 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\Java\jdk1.8\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Program Files\Git\cmd;F:\node-v10.15.3-win-x64;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\node-v10.15.3-win-x64\node_global;;.]
+2019-05-15 21:23:53.995  INFO 12948 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 21:23:53.995  INFO 12948 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1960 ms
+2019-05-15 21:23:54.195  INFO 12948 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-05-15 21:23:54.195  INFO 12948 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-15 21:23:54.195  INFO 12948 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-15 21:23:54.195  INFO 12948 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-15 21:23:54.195  INFO 12948 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-15 21:23:54.905  INFO 12948 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:23:55.205  INFO 12948 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@be68757: startup date [Wed May 15 21:23:52 CST 2019]; root of context hierarchy
+2019-05-15 21:23:55.275  INFO 12948 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoomList(com.sgy.feiyue.crms.common.dto.ClassroomCondition)
+2019-05-15 21:23:55.275  INFO 12948 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms/{id}],methods=[GET]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoom(java.lang.String)
+2019-05-15 21:23:55.275  INFO 12948 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}],methods=[DELETE]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.deleteRoom(java.lang.String)
+2019-05-15 21:23:55.275  INFO 12948 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PATCH]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:23:55.275  INFO 12948 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PUT]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.putRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:23:55.275  INFO 12948 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoomList(java.util.List<com.sgy.feiyue.crms.common.entity.Classroom>)
+2019-05-15 21:23:55.275  INFO 12948 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/oauth/authorize],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.security.controller.AuthorizeController.login(java.lang.String,java.lang.String)
+2019-05-15 21:23:55.285  INFO 12948 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-15 21:23:55.285  INFO 12948 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-15 21:23:55.495  INFO 12948 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:23:55.495  INFO 12948 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:23:55.925  INFO 12948 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-05-15 21:23:55.925  INFO 12948 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-15 21:23:55.935  INFO 12948 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-15 21:23:55.975  INFO 12948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms-api'
+2019-05-15 21:23:55.975  INFO 12948 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 4.997 seconds (JVM running for 6.199)
+2019-05-15 21:24:14.387  INFO 12948 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-15 21:24:14.388  INFO 12948 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-15 21:24:14.405  INFO 12948 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2019-05-15 21:26:04.596  INFO 12948 --- [Thread-12] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@be68757: startup date [Wed May 15 21:23:52 CST 2019]; root of context hierarchy
+2019-05-15 21:26:04.606  INFO 12948 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-05-15 21:26:04.606  INFO 12948 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-05-15 21:26:10.468  INFO 4364 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 4364 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 21:26:10.468  INFO 4364 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 21:26:10.550  INFO 4364 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71529963: startup date [Wed May 15 21:26:10 CST 2019]; root of context hierarchy
+2019-05-15 21:26:12.199  INFO 4364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 21:26:12.249  INFO 4364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 21:26:12.249  INFO 4364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-15 21:26:12.259  INFO 4364 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\Java\jdk1.8\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Program Files\Git\cmd;F:\node-v10.15.3-win-x64;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\node-v10.15.3-win-x64\node_global;;.]
+2019-05-15 21:26:12.359  INFO 4364 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 21:26:12.359  INFO 4364 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1809 ms
+2019-05-15 21:26:12.549  INFO 4364 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-05-15 21:26:12.559  INFO 4364 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-15 21:26:12.559  INFO 4364 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-15 21:26:12.559  INFO 4364 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-15 21:26:12.559  INFO 4364 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-15 21:26:13.159  INFO 4364 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:26:13.459  INFO 4364 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71529963: startup date [Wed May 15 21:26:10 CST 2019]; root of context hierarchy
+2019-05-15 21:26:13.539  INFO 4364 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PUT]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.putRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:26:13.539  INFO 4364 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms/{id}],methods=[GET]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoom(java.lang.String)
+2019-05-15 21:26:13.539  INFO 4364 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoomList(com.sgy.feiyue.crms.common.dto.ClassroomCondition)
+2019-05-15 21:26:13.539  INFO 4364 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}],methods=[DELETE]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.deleteRoom(java.lang.String)
+2019-05-15 21:26:13.539  INFO 4364 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PATCH]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:26:13.539  INFO 4364 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoomList(java.util.List<com.sgy.feiyue.crms.common.entity.Classroom>)
+2019-05-15 21:26:13.539  INFO 4364 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/oauth/authorize],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.security.controller.AuthorizeController.login(java.lang.String,java.lang.String)
+2019-05-15 21:26:13.539  INFO 4364 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-15 21:26:13.539  INFO 4364 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-15 21:26:13.709  INFO 4364 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:26:13.709  INFO 4364 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:26:14.119  INFO 4364 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-05-15 21:26:14.119  INFO 4364 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-15 21:26:14.129  INFO 4364 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-15 21:26:14.179  INFO 4364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms-api'
+2019-05-15 21:26:14.179  INFO 4364 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 4.521 seconds (JVM running for 5.703)
+2019-05-15 21:27:13.244  INFO 4364 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-15 21:27:13.244  INFO 4364 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-15 21:27:13.274  INFO 4364 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2019-05-15 21:27:13.394 ERROR 4364 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/crms-api] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.sgy.feiyue.crms.security.controller.AuthorizeController.login(AuthorizeController.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-05-15 21:28:48.456  INFO 4364 --- [Thread-12] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71529963: startup date [Wed May 15 21:26:10 CST 2019]; root of context hierarchy
+2019-05-15 21:28:48.466  INFO 4364 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-05-15 21:28:48.466  INFO 4364 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-05-15 21:28:54.066  INFO 1856 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 1856 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 21:28:54.076  INFO 1856 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 21:28:54.226  INFO 1856 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@336f1079: startup date [Wed May 15 21:28:54 CST 2019]; root of context hierarchy
+2019-05-15 21:28:55.946  INFO 1856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 21:28:55.986  INFO 1856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 21:28:55.986  INFO 1856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-15 21:28:55.986  INFO 1856 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\Java\jdk1.8\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Program Files\Git\cmd;F:\node-v10.15.3-win-x64;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\node-v10.15.3-win-x64\node_global;;.]
+2019-05-15 21:28:56.086  INFO 1856 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 21:28:56.086  INFO 1856 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1860 ms
+2019-05-15 21:28:56.266  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-05-15 21:28:56.276  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-15 21:28:56.276  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-15 21:28:56.276  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-15 21:28:56.276  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-15 21:28:56.909  INFO 1856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:28:57.246  INFO 1856 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@336f1079: startup date [Wed May 15 21:28:54 CST 2019]; root of context hierarchy
+2019-05-15 21:28:57.326  INFO 1856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PUT]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.putRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:28:57.326  INFO 1856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms/{id}],methods=[GET]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoom(java.lang.String)
+2019-05-15 21:28:57.326  INFO 1856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}],methods=[DELETE]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.deleteRoom(java.lang.String)
+2019-05-15 21:28:57.326  INFO 1856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoomList(java.util.List<com.sgy.feiyue.crms.common.entity.Classroom>)
+2019-05-15 21:28:57.326  INFO 1856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PATCH]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:28:57.326  INFO 1856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoomList(com.sgy.feiyue.crms.common.dto.ClassroomCondition)
+2019-05-15 21:28:57.326  INFO 1856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/oauth/authorize],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.security.controller.AuthorizeController.login(java.lang.String,java.lang.String)
+2019-05-15 21:28:57.336  INFO 1856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-15 21:28:57.336  INFO 1856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-15 21:28:57.516  INFO 1856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:28:57.516  INFO 1856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:28:57.926  INFO 1856 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-05-15 21:28:57.926  INFO 1856 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-15 21:28:57.936  INFO 1856 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-15 21:28:57.976  INFO 1856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms-api'
+2019-05-15 21:28:57.986  INFO 1856 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 4.74 seconds (JVM running for 5.919)
+2019-05-15 21:29:01.407  INFO 1856 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-15 21:29:01.407  INFO 1856 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-15 21:29:01.441  INFO 1856 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2019-05-15 21:29:01.511 ERROR 1856 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/crms-api] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.sgy.feiyue.crms.security.controller.AuthorizeController.login(AuthorizeController.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-05-15 21:29:35.040  INFO 1856 --- [Thread-12] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@336f1079: startup date [Wed May 15 21:28:54 CST 2019]; root of context hierarchy
+2019-05-15 21:29:35.050  INFO 1856 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-05-15 21:29:35.050  INFO 1856 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-05-15 21:29:40.767  INFO 3304 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 3304 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 21:29:40.777  INFO 3304 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 21:29:40.927  INFO 3304 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@332796d3: startup date [Wed May 15 21:29:40 CST 2019]; root of context hierarchy
+2019-05-15 21:29:42.667  INFO 3304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 21:29:42.697  INFO 3304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 21:29:42.697  INFO 3304 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-15 21:29:42.707  INFO 3304 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\Java\jdk1.8\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Program Files\Git\cmd;F:\node-v10.15.3-win-x64;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\node-v10.15.3-win-x64\node_global;;.]
+2019-05-15 21:29:42.797  INFO 3304 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 21:29:42.797  INFO 3304 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1870 ms
+2019-05-15 21:29:42.987  INFO 3304 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-05-15 21:29:42.987  INFO 3304 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-15 21:29:42.987  INFO 3304 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-15 21:29:42.987  INFO 3304 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-15 21:29:42.987  INFO 3304 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-15 21:29:43.637  INFO 3304 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:29:43.917  INFO 3304 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@332796d3: startup date [Wed May 15 21:29:40 CST 2019]; root of context hierarchy
+2019-05-15 21:29:43.997  INFO 3304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms/{id}],methods=[GET]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoom(java.lang.String)
+2019-05-15 21:29:43.997  INFO 3304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}],methods=[DELETE]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.deleteRoom(java.lang.String)
+2019-05-15 21:29:43.997  INFO 3304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PATCH]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:29:43.997  INFO 3304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoomList(java.util.List<com.sgy.feiyue.crms.common.entity.Classroom>)
+2019-05-15 21:29:43.997  INFO 3304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PUT]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.putRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:29:43.997  INFO 3304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoomList(com.sgy.feiyue.crms.common.dto.ClassroomCondition)
+2019-05-15 21:29:43.997  INFO 3304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/oauth/authorize],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.security.controller.AuthorizeController.login(java.lang.String,java.lang.String)
+2019-05-15 21:29:44.127  INFO 3304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-15 21:29:44.127  INFO 3304 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-15 21:29:44.177  INFO 3304 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:29:44.177  INFO 3304 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:29:44.577  INFO 3304 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-05-15 21:29:44.577  INFO 3304 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-15 21:29:44.587  INFO 3304 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-15 21:29:44.637  INFO 3304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms-api'
+2019-05-15 21:29:44.637  INFO 3304 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 5.038 seconds (JVM running for 6.24)
+2019-05-15 21:29:48.495  INFO 3304 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-15 21:29:48.495  INFO 3304 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-15 21:29:48.515  INFO 3304 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2019-05-15 21:31:00.332 ERROR 3304 --- [http-nio-7777-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/crms-api] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.sgy.feiyue.crms.dao.UserMapper.countByUsername] with root cause
+
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.sgy.feiyue.crms.dao.UserMapper.countByUsername
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:62)
+	at org.apache.ibatis.binding.MapperProxy$$Lambda$402/814060847.apply(Unknown Source)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy64.countByUsername(Unknown Source)
+	at com.sgy.feiyue.crms.service.impl.UserInfoServiceImpl.checkUser(UserInfoServiceImpl.java:78)
+	at com.sgy.feiyue.crms.security.controller.AuthorizeController.login(AuthorizeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-05-15 21:35:09.544  INFO 3304 --- [Thread-13] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@332796d3: startup date [Wed May 15 21:29:40 CST 2019]; root of context hierarchy
+2019-05-15 21:35:09.554  INFO 3304 --- [Thread-13] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-05-15 21:35:09.554  INFO 3304 --- [Thread-13] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-05-15 21:35:17.414  INFO 6012 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 6012 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 21:35:17.424  INFO 6012 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 21:35:17.554  INFO 6012 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@289710d9: startup date [Wed May 15 21:35:17 CST 2019]; root of context hierarchy
+2019-05-15 21:35:18.964  INFO 6012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 21:35:19.014  INFO 6012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 21:35:19.014  INFO 6012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-15 21:35:19.014  INFO 6012 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\Java\jdk1.8\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Program Files\Git\cmd;F:\node-v10.15.3-win-x64;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\node-v10.15.3-win-x64\node_global;;.]
+2019-05-15 21:35:19.104  INFO 6012 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 21:35:19.104  INFO 6012 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1550 ms
+2019-05-15 21:35:19.264  INFO 6012 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-05-15 21:35:19.274  INFO 6012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-15 21:35:19.274  INFO 6012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-15 21:35:19.274  INFO 6012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-15 21:35:19.274  INFO 6012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-15 21:35:19.854  INFO 6012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:35:20.134  INFO 6012 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@289710d9: startup date [Wed May 15 21:35:17 CST 2019]; root of context hierarchy
+2019-05-15 21:35:20.204  INFO 6012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PUT]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.putRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:35:20.204  INFO 6012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoomList(java.util.List<com.sgy.feiyue.crms.common.entity.Classroom>)
+2019-05-15 21:35:20.204  INFO 6012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PATCH]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:35:20.204  INFO 6012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}],methods=[DELETE]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.deleteRoom(java.lang.String)
+2019-05-15 21:35:20.204  INFO 6012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms/{id}],methods=[GET]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoom(java.lang.String)
+2019-05-15 21:35:20.204  INFO 6012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoomList(com.sgy.feiyue.crms.common.dto.ClassroomCondition)
+2019-05-15 21:35:20.204  INFO 6012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/oauth/authorize],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.security.controller.AuthorizeController.login(java.lang.String,java.lang.String)
+2019-05-15 21:35:20.204  INFO 6012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-15 21:35:20.214  INFO 6012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-15 21:35:20.364  INFO 6012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:35:20.364  INFO 6012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:35:20.794  INFO 6012 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-05-15 21:35:20.794  INFO 6012 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-15 21:35:20.804  INFO 6012 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-15 21:35:20.854  INFO 6012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms-api'
+2019-05-15 21:35:20.864  INFO 6012 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 4.65 seconds (JVM running for 5.894)
+2019-05-15 21:35:26.035  INFO 6012 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-15 21:35:26.035  INFO 6012 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-15 21:35:26.075  INFO 6012 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+2019-05-15 21:35:26.165 ERROR 6012 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/crms-api] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.sgy.feiyue.crms.dao.UserMapper.countByUsername] with root cause
+
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.sgy.feiyue.crms.dao.UserMapper.countByUsername
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:62)
+	at org.apache.ibatis.binding.MapperProxy$$Lambda$399/628464395.apply(Unknown Source)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy64.countByUsername(Unknown Source)
+	at com.sgy.feiyue.crms.service.impl.UserInfoServiceImpl.checkUser(UserInfoServiceImpl.java:78)
+	at com.sgy.feiyue.crms.security.controller.AuthorizeController.login(AuthorizeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-05-15 21:36:49.321  INFO 6012 --- [Thread-12] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@289710d9: startup date [Wed May 15 21:35:17 CST 2019]; root of context hierarchy
+2019-05-15 21:36:49.321  INFO 6012 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-05-15 21:36:49.321  INFO 6012 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-05-15 21:36:56.410  INFO 1936 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 1936 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 21:36:56.419  INFO 1936 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 21:36:56.557  INFO 1936 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3688eb5b: startup date [Wed May 15 21:36:56 CST 2019]; root of context hierarchy
+2019-05-15 21:36:58.547  INFO 1936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 21:36:58.607  INFO 1936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 21:36:58.607  INFO 1936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-15 21:36:58.617  INFO 1936 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\Java\jdk1.8\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Program Files\Git\cmd;F:\node-v10.15.3-win-x64;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\node-v10.15.3-win-x64\node_global;;.]
+2019-05-15 21:36:58.777  INFO 1936 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 21:36:58.787  INFO 1936 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2230 ms
+2019-05-15 21:36:58.967  INFO 1936 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-05-15 21:36:58.967  INFO 1936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-15 21:36:58.967  INFO 1936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-15 21:36:58.967  INFO 1936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-15 21:36:58.967  INFO 1936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-15 21:36:59.697  INFO 1936 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:37:00.007  INFO 1936 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3688eb5b: startup date [Wed May 15 21:36:56 CST 2019]; root of context hierarchy
+2019-05-15 21:37:00.087  INFO 1936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PATCH]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:37:00.087  INFO 1936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms/{id}],methods=[GET]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoom(java.lang.String)
+2019-05-15 21:37:00.087  INFO 1936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoomList(com.sgy.feiyue.crms.common.dto.ClassroomCondition)
+2019-05-15 21:37:00.087  INFO 1936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}],methods=[DELETE]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.deleteRoom(java.lang.String)
+2019-05-15 21:37:00.097  INFO 1936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PUT]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.putRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:37:00.097  INFO 1936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoomList(java.util.List<com.sgy.feiyue.crms.common.entity.Classroom>)
+2019-05-15 21:37:00.097  INFO 1936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/oauth/authorize],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.security.controller.AuthorizeController.login(java.lang.String,java.lang.String)
+2019-05-15 21:37:00.097  INFO 1936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-15 21:37:00.097  INFO 1936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-15 21:37:00.267  INFO 1936 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:37:00.267  INFO 1936 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:37:00.697  INFO 1936 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-05-15 21:37:00.697  INFO 1936 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-15 21:37:00.707  INFO 1936 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-15 21:37:00.767  INFO 1936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms-api'
+2019-05-15 21:37:00.777  INFO 1936 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 5.341 seconds (JVM running for 6.662)
+2019-05-15 21:37:19.762  INFO 1936 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-15 21:37:19.762  INFO 1936 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-15 21:37:19.778  INFO 1936 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2019-05-15 21:37:19.878 ERROR 1936 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/crms-api] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.sgy.feiyue.crms.dao.UserMapper.countByUsername] with root cause
+
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.sgy.feiyue.crms.dao.UserMapper.countByUsername
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:62)
+	at org.apache.ibatis.binding.MapperProxy$$Lambda$399/1479456929.apply(Unknown Source)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy64.countByUsername(Unknown Source)
+	at com.sgy.feiyue.crms.service.impl.UserInfoServiceImpl.checkUser(UserInfoServiceImpl.java:78)
+	at com.sgy.feiyue.crms.security.controller.AuthorizeController.login(AuthorizeController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-05-15 21:38:31.724  INFO 1936 --- [Thread-14] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3688eb5b: startup date [Wed May 15 21:36:56 CST 2019]; root of context hierarchy
+2019-05-15 21:38:31.734  INFO 1936 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-05-15 21:38:31.734  INFO 1936 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-05-15 21:38:39.085  INFO 12212 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Starting CrmsApplication on SGY with PID 12212 (F:\IDEA_WORK\ClassRoomManagementSystem\crms\target\classes started by Administrator in F:\IDEA_WORK\ClassRoomManagementSystem\crms)
+2019-05-15 21:38:39.085  INFO 12212 --- [main] com.sgy.feiyue.crms.CrmsApplication      : The following profiles are active: dev
+2019-05-15 21:38:39.175  INFO 12212 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d9ac0b4: startup date [Wed May 15 21:38:39 CST 2019]; root of context hierarchy
+2019-05-15 21:38:41.195  INFO 12212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2019-05-15 21:38:41.225  INFO 12212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 21:38:41.225  INFO 12212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-15 21:38:41.235  INFO 12212 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\Java\jdk1.8\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Program Files\Git\cmd;F:\node-v10.15.3-win-x64;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\node-v10.15.3-win-x64\node_global;;.]
+2019-05-15 21:38:41.335  INFO 12212 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring embedded WebApplicationContext
+2019-05-15 21:38:41.335  INFO 12212 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2160 ms
+2019-05-15 21:38:41.545  INFO 12212 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-05-15 21:38:41.555  INFO 12212 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-15 21:38:41.555  INFO 12212 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-15 21:38:41.555  INFO 12212 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-15 21:38:41.555  INFO 12212 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-15 21:38:42.185  INFO 12212 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:38:42.495  INFO 12212 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d9ac0b4: startup date [Wed May 15 21:38:39 CST 2019]; root of context hierarchy
+2019-05-15 21:38:42.585  INFO 12212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoomList(com.sgy.feiyue.crms.common.dto.ClassroomCondition)
+2019-05-15 21:38:42.585  INFO 12212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PATCH]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:38:42.585  INFO 12212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}],methods=[DELETE]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.deleteRoom(java.lang.String)
+2019-05-15 21:38:42.585  INFO 12212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/{id}/rooms/{id}],methods=[GET]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.getRoom(java.lang.String)
+2019-05-15 21:38:42.585  INFO 12212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.postRoomList(java.util.List<com.sgy.feiyue.crms.common.entity.Classroom>)
+2019-05-15 21:38:42.585  INFO 12212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/builds/],methods=[PUT]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.controller.RoomInfoController.putRoom(com.sgy.feiyue.crms.common.entity.Classroom)
+2019-05-15 21:38:42.585  INFO 12212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/oauth/authorize],methods=[POST]}" onto public com.sgy.feiyue.crms.common.util.DataRet com.sgy.feiyue.crms.security.controller.AuthorizeController.login(java.lang.String,java.lang.String)
+2019-05-15 21:38:42.595  INFO 12212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-15 21:38:42.595  INFO 12212 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-15 21:38:42.785  INFO 12212 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:38:42.785  INFO 12212 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 21:38:43.225  INFO 12212 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-05-15 21:38:43.225  INFO 12212 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-15 21:38:43.235  INFO 12212 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-15 21:38:43.285  INFO 12212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path '/crms-api'
+2019-05-15 21:38:43.295  INFO 12212 --- [main] com.sgy.feiyue.crms.CrmsApplication      : Started CrmsApplication in 5.36 seconds (JVM running for 6.596)
+2019-05-15 21:38:47.387  INFO 12212 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[localhost].[/crms-api]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-15 21:38:47.387  INFO 12212 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-15 21:38:47.412  INFO 12212 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2019-05-15 21:38:47.495 ERROR 12212 --- [http-nio-7777-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/crms-api] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.sgy.feiyue.crms.dao.UserMapper.selectUserRole] with root cause
+
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.sgy.feiyue.crms.dao.UserMapper.selectUserRole
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:62)
+	at org.apache.ibatis.binding.MapperProxy$$Lambda$399/638195114.apply(Unknown Source)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy64.selectUserRole(Unknown Source)
+	at com.sgy.feiyue.crms.service.impl.UserInfoServiceImpl.findByNameAndPwd(UserInfoServiceImpl.java:72)
+	at com.sgy.feiyue.crms.security.controller.AuthorizeController.login(AuthorizeController.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-05-15 21:39:17.007  INFO 12212 --- [Thread-13] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d9ac0b4: startup date [Wed May 15 21:38:39 CST 2019]; root of context hierarchy
+2019-05-15 21:39:17.007  INFO 12212 --- [Thread-13] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-05-15 21:39:17.007  INFO 12212 --- [Thread-13] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans

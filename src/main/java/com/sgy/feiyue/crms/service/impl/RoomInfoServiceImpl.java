@@ -50,8 +50,8 @@ public class RoomInfoServiceImpl implements RoomInfoService {
             criteria.andRoomStateIn(condition.getRoomStates());
         }
         // 根据所属大楼筛选
-        if (!condition.getRoomBuildings().isEmpty()) {
-            criteria.andRoomBuildingIn(condition.getRoomBuildings());
+        if (!condition.getRoomBuildingIds().isEmpty()) {
+            criteria.andBuildingIdIn(condition.getRoomBuildingIds());
         }
         // 排序
         if (!condition.getSort().isEmpty()) {

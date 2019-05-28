@@ -1,17 +1,13 @@
 package com.sgy.feiyue.crms.common.entity;
 
-import org.springframework.stereotype.Component;
-
 import java.io.Serializable;
-import java.util.Objects;
 
-@Component
 public class Classroom implements Serializable {
-    private static final long serialVersionUID = 1L;
-
     private String roomId;
 
-    private String roomNumber;//门牌号
+    private String buildingId;
+
+    private String roomFloor;
 
     private String roomName;
 
@@ -19,9 +15,9 @@ public class Classroom implements Serializable {
 
     private String roomType;
 
-    private String roomBuilding;
-
     private Integer roomCapacity;
+
+    private static final long serialVersionUID = 1L;
 
     public String getRoomId() {
         return roomId;
@@ -31,12 +27,20 @@ public class Classroom implements Serializable {
         this.roomId = roomId == null ? null : roomId.trim();
     }
 
-    public String getRoomNumber() {
-        return roomNumber;
+    public String getBuildingId() {
+        return buildingId;
     }
 
-    public void setRoomNumber(String roomNumber) {
-        this.roomNumber = roomNumber == null ? null : roomNumber.trim();
+    public void setBuildingId(String buildingId) {
+        this.buildingId = buildingId == null ? null : buildingId.trim();
+    }
+
+    public String getRoomFloor() {
+        return roomFloor;
+    }
+
+    public void setRoomFloor(String roomFloor) {
+        this.roomFloor = roomFloor == null ? null : roomFloor.trim();
     }
 
     public String getRoomName() {
@@ -69,45 +73,5 @@ public class Classroom implements Serializable {
 
     public void setRoomCapacity(Integer roomCapacity) {
         this.roomCapacity = roomCapacity;
-    }
-
-    public String getRoomBuilding() {
-        return roomBuilding;
-    }
-
-    public void setRoomBuilding(String roomBuilding) {
-        this.roomBuilding = roomBuilding;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Classroom classroom = (Classroom) o;
-        return roomId.equals(classroom.roomId) &&
-                roomNumber.equals(classroom.roomNumber) &&
-                roomName.equals(classroom.roomName) &&
-                roomState.equals(classroom.roomState) &&
-                roomType.equals(classroom.roomType) &&
-                roomBuilding.equals(classroom.roomBuilding) &&
-                roomCapacity.equals(classroom.roomCapacity);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(roomId, roomNumber, roomName, roomState, roomType, roomBuilding, roomCapacity);
-    }
-
-    @Override
-    public String toString() {
-        return "Classroom{" +
-                "roomId='" + roomId + '\'' +
-                ", roomNumber='" + roomNumber + '\'' +
-                ", roomName='" + roomName + '\'' +
-                ", roomState='" + roomState + '\'' +
-                ", roomType='" + roomType + '\'' +
-                ", roomBuilding='" + roomBuilding + '\'' +
-                ", roomCapacity=" + roomCapacity +
-                '}';
     }
 }
